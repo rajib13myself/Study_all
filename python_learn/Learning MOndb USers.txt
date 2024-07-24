@@ -1,0 +1,13 @@
+db.createUser({
+  user: "rada3822",
+  pwd: "Suicide009",
+  roles: [
+    { role: "userAdminAnyDatabase", db: "admin" },
+    "readWriteAnyDatabase"
+  ]
+})
+
+
+mongosh -u "rada3822" -p "Suicide009" --authenticationDatabase "admin"
+
+
