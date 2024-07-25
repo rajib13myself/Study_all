@@ -1,8 +1,0 @@
-[submodule "Study_all"]
-	path = Study_all
-	url = https://github.com/rajib13myself/Study_all.git
-* text=auto
-*.js text eol=lf
-*.css text eol=lf
-*.html text eol=lf
-
